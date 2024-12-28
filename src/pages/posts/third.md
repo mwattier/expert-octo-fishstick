@@ -1,6 +1,4 @@
 ---
-import '../styles/global.css';
-
 title: "My Third Blog Post"
 author: "Cadet Tom Corbett, Solar Guard"
 description: "Off to the stars.."
