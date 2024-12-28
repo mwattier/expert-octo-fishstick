@@ -1,4 +1,7 @@
-# Astro Starter Kit: Minimal
+# Fishsticks From Expert Octos
+Out of all the new fangled frameworks, Astro seems pretty cool. 
+
+## Astro Starter Kit: Minimal
 
 ```sh
 npm create astro@latest -- --template minimal
