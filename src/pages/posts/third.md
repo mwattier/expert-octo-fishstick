@@ -1,11 +1,13 @@
 ---
-title: "My Third Blog Post"
-author: "Cadet Tom Corbett, Solar Guard"
-description: "Off to the stars.."
-image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "The Astro logo on a dark background with rainbow rays."
-pubDate: 2027-12-28
-tags: ["astro", "learning in public", "setbacks", "community"]
+layout: ../../layouts/MarkdownPostLayout.astro
+title: "Last but not fourth"
+pubDate: 12/28/2024
+description: "Let the other guy go first, then learn from his mistakes"
+author: "Mike"
+image: 
+    url: 'https://docs.astro.build/assets/rose.webp'
+    alt: 'The Astro logo on a dark background with a pink glow.'
+tags: ["astro", "blogging", "learning in public"]
 ---
-It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
+## This is the last in a short line 
+For this tutorial I have learned what I'm doing in a simple and easily understandable way.

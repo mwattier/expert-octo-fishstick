@@ -1,8 +1,14 @@
 ---
+import BlogPost from "../components/BlogPost.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-
+const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 const pageTitle = "Stacks & Stuff";
 ---
 <BaseLayout pageTitle={pageTitle}>
 	<h2>Success is learned from shared experiences written by humans.</h2>
+	<ul>
+		{allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
+	</ul>
 </BaseLayout>
+<!-- I added the BlogPost component just to see how it works. Not sure I would be this granular for most things. -->
+ 
