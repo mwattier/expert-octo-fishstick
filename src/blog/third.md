@@ -1,7 +1,6 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: "Last but not fourth"
-pubDate: 12/28/2024
+pubDate: 2024-12-28
 description: "Let the other guy go first, then learn from his mistakes"
 author: "Mike"
 image: 

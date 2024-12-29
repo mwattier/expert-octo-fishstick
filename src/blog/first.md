@@ -1,7 +1,6 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: "Oh the joy of being first"
-pubDate: 12/28/2024
+pubDate: 2024-12-28
 description: "First one through the wall always has the biggest headache"
 author: "Mike"
 image: 
