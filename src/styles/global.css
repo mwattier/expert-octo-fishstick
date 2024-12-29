@@ -93,3 +93,22 @@ html {
     font-size: 1.15em;
     background-color: #F8FCFD;
   }
+
+
+.item {
+    color: navy;
+    font-weight: bold;
+    text-transform: capitalize;
+}    
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+.dark .item {
+  color: #fff;
+}

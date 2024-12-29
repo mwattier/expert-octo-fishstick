@@ -7,22 +7,12 @@ const fontWeight = "bold";
 const textCase = "capitalize";
 ---
 <BaseLayout pageTitle={pageTitle}>
-<style is:global define:vars={{itemColor,fontWeight,textCase}}>
-        h1 {
-            color: grey;
-            font-size: 4rem;
-        }
-    .item {
-        color: var(--itemColor);
-        font-weight: var(--fontWeight);
-        text-transform: var(--textCase);
-    }    
-</style>
+
 
 <p>Success is found at the nexus of offer and audience.</p>
 <p>
     <ul>
-        {nexus.map((item) => <li class="item">{item}</li>)}
+        {nexus.map((item) => <li>{item}</li>)}
     </ul>
 </p>
 
