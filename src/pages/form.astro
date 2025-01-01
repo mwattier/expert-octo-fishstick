@@ -1,0 +1,9 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HubSpotForm from '../components/HubSpotForm.jsx';
+const pageTitle = "Hubspot Form";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+    <HubSpotForm client:load portalId="45924322" formId="923388fe-c591-4284-8946-645543360421" />
+</BaseLayout>
